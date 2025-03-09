@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #8106c1;
     color: white;
     padding: 1rem;
     display: flex;
@@ -21,19 +21,17 @@ header nav a {
 }
 
 .banner {
-    background-image: url('https://via.placeholder.com/1200x400');
-    background-size: cover;
-    background-position: center;
-    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
 }
 
-.banner h1 {
-    font-size: 3rem;
+.banner img {
+    width: 100%;
+    height: auto;
 }
 
 .container {
