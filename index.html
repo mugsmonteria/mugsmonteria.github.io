@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Store Name</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <h1>Welcome to Our Store!</h1>
+        <p>Discover amazing deals and products.</p>
+    </div>
+
+    <div class="container">
+        <div class="products">
+            <div class="product">
+                <img src="mug.png" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$16.000</p>
+                <button onclick="addToCart('Product 1')">Comprar</button>
+            </div>
+            <div class="product">
+                <img src="mug.png" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$16.000</p>
+                <button onclick="addToCart('Product 2')">Comprar</button>
+            </div>
+            <div class="product">
+                <img src="mug.png" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>$16.000</p>
+                <button onclick="addToCart('Product 3')">Comprar</button>
+            </div>
+        </div>
+
+        <aside class="sidebar">
+            <h3>Productos Relacionados</h3>
+            <div class="related-product">
+                <img src="mug.png" alt="Related 1">
+                <p>Día del Hombre </p>
+            </div>
+            <div class="related-product">
+                <img src="mug.png" alt="Related 1">
+                <p>Día de la Mujer </p>
+            </div>
+            <div class="related-product">
+                <img src="mug.png" alt="Related 1">
+                <p>Día de la Madre </p>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Store Name. All rights reserved.</p>
+        <p>Contact us: <a href="mailto:info@store.com">info@store.com</a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
