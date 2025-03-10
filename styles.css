@@ -15,7 +15,11 @@ header {
     position: relative;
 }
 
-#menu-toggle {
+#nav-menu{
+    padding: 40px;
+}
+
+#menu-toggle {    
     background: none;
     border: none;
     color: white;
@@ -25,7 +29,6 @@ header {
 }
 #nav-menu{
     background-color: #a809c0;
-    padding: 40px;
 }
 
 header nav {
