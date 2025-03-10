@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #8e05a2;
     color: white;
     padding: 1rem;
     display: flex;
@@ -22,6 +22,10 @@ header {
     font-size: 1.5rem;
     display: none;
     cursor: pointer;
+}
+#nav-menu{
+    background-color: #a809c0;
+    padding: 40px;
 }
 
 header nav {
@@ -98,7 +102,7 @@ header nav a {
 }
 
 footer {
-    background-color: #333;
+    background-color: #8e05a2;
     color: white;
     text-align: center;
     padding: 1rem;
