@@ -6,18 +6,32 @@ body {
 }
 
 header {
-    background-color: #8106c1;
+    background-color: #333;
     color: white;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+
+#menu-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    display: none;
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    gap: 1rem;
 }
 
 header nav a {
     color: white;
     text-decoration: none;
-    margin: 0 1rem;
 }
 
 .banner {
@@ -97,6 +111,24 @@ footer a {
 }
 
 @media (max-width: 768px) {
+    header nav {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+
+    header nav.show {
+        display: flex;
+    }
+
+    #menu-toggle {
+        display: block;
+    }
+
     .container {
         flex-direction: column;
     }
