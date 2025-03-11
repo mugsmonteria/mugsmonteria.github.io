@@ -159,6 +159,17 @@ footer a {
     #menu-toggle {
         display: block;
     }
+    #menu-toggle {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+        transition: transform 0.3s ease;
+    }
+
+    #menu-toggle:hover {
+        transform: scale(1.2);
+    }
+
 
     .container {
         flex-direction: column;
