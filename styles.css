@@ -76,6 +76,18 @@ header nav a {
     transition: box-shadow 0.3s;
 }
 
+.product a {
+    display: block; /* Para que ocupe todo el ancho del contenedor */
+    background-color: #25d366; /* Color característico de WhatsApp */
+    color: white;
+    text-align: center; /* Centrar el texto */
+    padding: 0.75rem; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    text-decoration: none; /* Quitar subrayado */
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.3s; /* Suavizar el cambio de color */
+}
+
 .product img {
     max-width: 100%;
     height: auto;
@@ -89,6 +101,13 @@ header nav a {
 .sidebar {
     flex: 1;
     margin-left: 2rem;
+}
+.sidebar h2{
+    color: #666;
+}
+
+.sidebar div p{
+    color: #555;
 }
 
 .related-product {
