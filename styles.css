@@ -76,6 +76,11 @@ header nav a {
     transition: box-shadow 0.3s;
 }
 
+.product p {
+    color: #8e05a2;
+    font-weight: bold;
+}   
+
 .product a {
     display: block; /* Para que ocupe todo el ancho del contenedor */
     background-color: #25d366; /* Color característico de WhatsApp */
